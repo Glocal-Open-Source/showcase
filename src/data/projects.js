@@ -27,7 +27,7 @@ const projects = [
       "An engaging game designed to educate Canadians about voting procedures, eligibility, and the importance of civic participation.",
     image: "thumbnails/gaming.jpg",
     embed: "https://voting-app-frontend-wheat.vercel.app/begin-journey",
-    tags: ["gamified-learning", "voter-preparedness", "civic-education"],
+    tags: ["elections-canada", "civic-education", "civic-tech"],
     component: VoteGame,
   },
   {
@@ -37,7 +37,7 @@ const projects = [
     description:
       "A civic engagement tool on YouCount.ca that allows Canadians to ask and upvote questions about government, democracy, and representation — bridging citizens and policymakers.",
     image: "thumbnails/askbeaver.jpg",
-    tags: ["public-engagement", "civic-literacy", "digital-dialogue"],
+    tags: ["civic-tech", "civic-education", "public-engagement"],
     component: AskBeaver,
   },
 
@@ -49,7 +49,7 @@ const projects = [
       "An interactive quiz that helps Canadians discover which party platforms align most closely with their values and priorities.",
     image: "thumbnails/votematch.jpg",
     embed: "/projects/votematch.html",
-    tags: ["machine-learning", "political-alignment", "interactive-data"],
+    tags: ["elections-canada", "civic-tech", "data-analysis"],
     component: VoteMatch,
   },
   {
@@ -59,7 +59,7 @@ const projects = [
     description: "An innovative civic technology project by Chloe Sepulveda that integrates a live candidate dashboard and an iOS app designed to make political information more engaging and accessible. The platform combines personalized quizzes, live civic updates, and gamified learning tools to enhance democratic participation and awareness among Canadians.",
     image: "thumbnails/chloe.jpg",
     embed: "",
-    tags: ["events", "archive", "elections"],
+    tags: ["elections-canada", "civic-tech", "civic-education"],
     component: ChloeApp
   },
   {
@@ -70,7 +70,7 @@ const projects = [
       "A data-driven exploration of civic participation, political trust, and voting behavior in Canada based on the 2021 Canadian Election Study.",
     image: "thumbnails/cdem2021.jpg",
     embed: "/projects/canadians-civic-issues.pdf",
-    tags: ["civic-insight", "data-science", "democracy-research"],
+    tags: ["elections-canada", "data-analysis", "democracy-research"],
     component: CivicIssuesReport,
   },
   {
@@ -81,7 +81,7 @@ const projects = [
       "An interactive mix of PDFs and embedded dashboards offering analytical insights across Canadian electoral and civic engagement datasets.",
     image: "thumbnails/ejournal.jpg",
     embed: "https://glocalfoundation.ca/e-journal-data",
-    tags: ["open-data", "visual-analytics", "knowledge-integration"],
+    tags: ["data-analysis", "open-data", "civic-research"],
     component: EJournal,
   },
   {
@@ -92,7 +92,7 @@ const projects = [
       "Detailed examination of unique characteristics of local governance models within each province and territory in Canada.",
     image: "thumbnails/governance.jpg",
     embed: "/projects/governance.html",
-    tags: ["governance-systems", "policy-mapping", "institutional-analysis"],
+    tags: ["governance", "policy-analysis", "civic-education"],
     component: LocalGovernance,
   },
   {
@@ -103,7 +103,7 @@ const projects = [
       "A dataset and dashboard hybrid that visualizes electoral data, voter turnout, and regional voting trends across Canada.",
     image: "thumbnails/data-explorer.jpg",
     embed: "/projects/election-data-explorer.html",
-    tags: ["data-visualization", "election-trends", "civic-analytics"],
+    tags: ["elections-canada", "data-analysis", "data-visualization"],
     component: ElectionsData,
   },
 
@@ -112,7 +112,7 @@ const projects = [
     id: 8,
     title: "Elections Contributions and Outcomes",
     type: "report",
-    tags: ["campaign-finance", "data-analysis", "evidence-based-policy"],
+    tags: ["elections-canada", "data-analysis", "campaign-finance"],
     description:
       "An analysis of campaign donation data in Canadian elections by Carmen Y through the Canada Summer Jobs program, exploring links between fundraising and results.",
     image: "thumbnails/contributions.jpg",
@@ -126,7 +126,7 @@ const projects = [
       "A visual exploration of Canadian federal election results, highlighting seat distributions, turnout rates, and historical changes.",
     image: "thumbnails/federal-results.jpg",
     embed: "https://glocalfoundation.ca/educational-resources",
-    tags: ["historical-trends", "data-storytelling", "visual-history"],
+    tags: ["elections-canada", "data-visualization", "historical-analysis"],
     component: FederalResults,
   },
   {
@@ -137,7 +137,7 @@ const projects = [
       "A comprehensive database of candidates running in the 2025 Canadian federal elections, including profiles, party affiliations, and electoral districts.",
     image: "thumbnails/candidates-data.jpg",
     embed: "https://www.youcount.ca/elections/ng/fed-2025",
-    tags: ["representative-data", "open-governance", "civic-infrastructure"],
+    tags: ["elections-canada", "open-data", "civic-infrastructure"],
     component: CandidatesData,
   },
   {
@@ -148,7 +148,7 @@ const projects = [
       "An analytical report examining the outcomes of the 2025 Canadian federal elections, voter turnout, and implications for future political trends.",
     image: "thumbnails/post-election.jpg",
     embed: "https://glocalfoundation.ca/educational-resources",
-    tags: ["post-election", "insight-report", "democracy-forecasting"],
+    tags: ["elections-canada", "data-analysis", "democracy-research"],
     component: PostElection,
   },
 
@@ -160,7 +160,7 @@ const projects = [
       "Comprehensive toolkit designed to assist Canadians living abroad with voting procedures. Includes step-by-step instructions, timelines, and downloadable resources.",
     image: "thumbnails/overseas.jpg",
     embed: "/projects/overseas-canadians-voting.pdf",
-    tags: ["digital-democracy", "voter-access", "civic-tech"],
+    tags: ["elections-canada", "civic-education", "voter-access"],
     component: OverseasToolkit,
   },
 
@@ -171,7 +171,7 @@ const projects = [
     description: "A comprehensive analysis of Canadian federalism, exploring the constitutional division of powers between federal and provincial governments.",
     image: "thumbnails/federalism.jpg",
     embed: "https://glocalfoundation.ca/projects/federalism-division-of-powers.pdf",
-    tags: ["governance", "federalism", "policy-analysis"],
+    tags: ["governance", "policy-analysis", "civic-education"],
     component: FederalismReport
   },
   {
@@ -181,7 +181,7 @@ const projects = [
   description: "An analytical report examining civic engagement and political awareness among Canadians using C-DEM’s 2019 Canadian Election Study data.",
   image: "thumbnails/cdem2019.jpg",
   embed: "https://glocalfoundation.ca/projects/cdem2019-canadians-and-civic-issues.pdf",
-  tags: ["data-analysis", "political-engagement", "democracy"],
+  tags: ["elections-canada", "data-analysis", "democracy-research"],
   component: CDEM2019Report
 },
 {
@@ -191,7 +191,7 @@ const projects = [
   description: "An in-person civic engagement showcase held in Vancouver, featuring MPs, MPPs, researchers, and community leaders discussing electoral participation, youth engagement, and civic literacy in Western Canada.",
   image: "thumbnails/events/vancouver.jpg",
   embed: "",
-  tags: ["elections", "regional", "showcase"],
+  tags: ["events", "elections-canada", "civic-engagement"],
   component: VancouverRegional
 },
 {
@@ -201,7 +201,7 @@ const projects = [
   description: "A live regional event in Calgary spotlighting civic dialogue between policymakers, academics, and youth. The showcase emphasized federal–provincial collaboration, representation, and accessible participation in democratic processes.",
   image: "thumbnails/events/calgary-regional.jpg",
   embed: "thumbnails/events/calgary-meet.jpg",
-  tags: ["elections", "regional", "showcase"],
+  tags: ["events", "elections-canada", "civic-engagement"],
   component: CalgaryRegional
 },
 {
@@ -211,7 +211,7 @@ const projects = [
   description: "An in-person showcase in Winnipeg convening MPs, MPPs, community advocates, and emerging scholars to discuss the evolution of Canada’s electoral landscape and civic education initiatives across the Prairies.",
   image: "thumbnails/events/winnipeg-regional.jpg",
   embed: "",
-  tags: ["elections", "regional", "showcase"]
+  tags: ["events", "elections-canada", "civic-engagement"]
 },
 {
   id: 18,
@@ -220,7 +220,7 @@ const projects = [
   description: "A virtual panel featuring Arctic community leaders discussing the unique challenges and opportunities for civic engagement and electoral participation in Northern Canada.",
   image: "thumbnails/events/nunavut.jpg",
   embed: "thumbnails/events/arctic.jpg",
-  tags: ["elections", "outreach", "virtual-event"]
+  tags: ["events", "elections-canada", "outreach"]
 },
 {
   id: 19,
@@ -229,7 +229,7 @@ const projects = [
   description: "A virtual discussion with Deninu School Principal Simone Degannes-Lange, exploring the intersection of education, culture, and electoral participation in Northern Indigenous communities.",
   image: "thumbnails/events/deninu.jpg",
   embed: "thumbnails/events/fort-resolution-poster.jpg",
-  tags: ["elections", "outreach", "virtual-event"]
+  tags: ["events", "elections-canada", "indigenous-engagement"]
 },
 {
   id: 20,
@@ -238,7 +238,7 @@ const projects = [
   description: "Dr. Cameron Anderson, Professor of Political Science at Western University, presents his research on economic voting behaviour in Canadian federal elections.",
   image: "thumbnails/events/camand.jpg",
   embed: "thumbnails/events/cameron-anderson.jpg",
-  tags: ["elections", "education", "interactive"]
+  tags: ["events", "elections-canada", "civic-education"]
 },
 
 {
@@ -248,10 +248,69 @@ const projects = [
   description: "All of GLOCAL's upcoming and past events in one place, including regional showcases, virtual panels, and infographic poster series aimed at promoting civic engagement and electoral participation across Canada.",
   image: "thumbnails/events/virtual-meeting.jpg",
   embed: "",
-  tags: ["events", "archive", "elections"],
+  tags: ["events", "elections-canada", "archive"],
   component: VirtualEvents
-}
+},
 
+{
+  id: 23,
+  title: "Disconnected and Distrustful: Analysis of Youth Mental Health, Political Trust, and Voter Participation in Canada",
+  type: "data",
+  description: "A comprehensive analysis of youth mental health trends in Canada and their correlation with political trust and voter participation, utilizing data from national surveys and electoral studies.",
+  image: "thumbnails/youth-mental-health.jpg",
+  embed: "content/aidan-health.pdf",
+  tags: ["statistics-canada", "data-analysis", "youth-engagement"]
+},
+
+{
+  id: 24,
+  title: "Youth Data Explorer",
+  type: "interactive",
+  description: "A website that allows users to explore various datasets from the Canada Elections Study related to youth political engagement, mental health, and voting behavior through interactive visualizations and dashboards.",
+  image: "thumbnails/youth-data-explorer.jpg",
+  embed: "https://jackychen8173.github.io/glocalproject/#/",
+  tags: ["statistics-canada", "data-visualization", "civic-tech"]
+},
+
+{
+  id: 25,
+  title: "Canadian Housing Data Hub",
+  type: "data",
+  description: "An interactive platform that consolidates and visualizes housing market data across Canada, providing insights into affordability, availability, and regional trends to inform policy-making and public understanding.",
+  image: "thumbnails/housing.jpg",
+  embed: "https://www.youtube.com/watch?v=kX_uR_e5pIU",
+  tags: ["statistics-canada", "data-visualization", "housing-policy"]
+},
+
+{
+  id: 26,
+  title: "Canada's Housing Affordability Crisis: Analyzing Trends and Impacts",
+  type: "data",
+  description: "A comprehensive analysis of housing affordability trends in Canada, examining factors such as income levels, housing prices, and demographic shifts to understand the challenges faced by Canadians in accessing affordable housing.",
+  image: "thumbnails/zoning.jpg",
+  embed: "https://public.tableau.com/shared/FWQQPH29P?:display_count=y&:origin=viz_share_link&:embed=y",
+  tags: ["statistics-canada", "data-analysis", "housing-policy"]
+},
+
+{
+  id: 27,
+  title: "Post-Covid E-Commerce Trends in Canada",
+  type: "data",
+  description: "How has e-commerce in Canada evolved since the onset of the Covid-19 pandemic? This project analyzes shifts in consumer behavior, market growth, and regional variations in online shopping across Canada.",
+  image: "thumbnails/ecommerce.jpg",
+  embed: "https://vlevner.github.io/Post-COVID-E-commerce-Trends/#home",
+  tags: ["statistics-canada", "data-analysis", "economic-trends"]
+},
+
+{
+  id: 28,
+  title: "Debt Burden of Young Canadians: A Data-Driven Analysis",
+  type: "data",
+  description: "An in-depth analysis of the debt burden faced by young Canadians, exploring factors such as student loans, credit card debt, and housing costs, and their implications for financial stability and future economic prospects.",
+  image: "thumbnails/debt.jpg",
+  embed: "content/debt.pdf",
+  tags: ["statistics-canada", "data-analysis", "youth-economics"]
+}
 ];
 
 

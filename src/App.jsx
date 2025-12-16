@@ -6,36 +6,34 @@ import projectsData from "./data/projects";
 import "./App.css";
 
 function App() {
-  const [activeTypes, setActiveTypes] = useState([]);   // report/data/dashboard/interactive
-  const [activeTags, setActiveTags] = useState([]);     // Article/Toolkit/etc.
+  const [activeTypes, setActiveTypes] = useState([]);
+  const [activeTags, setActiveTags] = useState([]);
   const [selectedProject, setSelectedProject] = useState(null);
 
   const typeOptions = ["report", "data", "interactive", "events"];
 
-  // Build unique, sorted tags from data
   const tagOptions = useMemo(() => {
     const tags = new Set();
-    projectsData.forEach(p => (p.tags || []).forEach(t => tags.add(t)));
+    projectsData.forEach((p) => (p.tags || []).forEach((t) => tags.add(t)));
     return Array.from(tags).sort((a, b) => a.localeCompare(b));
   }, []);
 
   const toggleType = (t) =>
-    setActiveTypes(prev => prev.includes(t) ? prev.filter(x => x !== t) : [...prev, t]);
+    setActiveTypes((prev) => (prev.includes(t) ? prev.filter((x) => x !== t) : [...prev, t]));
 
   const toggleTag = (t) =>
-    setActiveTags(prev => prev.includes(t) ? prev.filter(x => x !== t) : [...prev, t]);
+    setActiveTags((prev) => (prev.includes(t) ? prev.filter((x) => x !== t) : [...prev, t]));
 
-  // Filter logic:
-  // - If no type selected => match all types
-  // - If no tag selected  => match all tags
-  // - If multiple tags selected => ANY match (OR). Change to .every(...) for AND behavior.
+  const clearAllFilters = () => {
+    setActiveTypes([]);
+    setActiveTags([]);
+  };
+
   const filteredProjects = useMemo(() => {
-    return projectsData.filter(p => {
+    return projectsData.filter((p) => {
       const typeMatch = activeTypes.length === 0 || activeTypes.includes(p.type);
       const projTags = p.tags || [];
-      const tagMatch =
-        activeTags.length === 0 ||
-        projTags.some(tag => activeTags.includes(tag)); // OR across tags
+      const tagMatch = activeTags.length === 0 || projTags.some((tag) => activeTags.includes(tag));
       return typeMatch && tagMatch;
     });
   }, [activeTypes, activeTags]);
@@ -50,11 +48,30 @@ function App() {
         activeTags={activeTags}
         onToggleTag={toggleTag}
       />
+
       <main className="content">
         {selectedProject ? (
-          <ProjectView project={selectedProject} onBack={() => setSelectedProject(null)} />
+          <ProjectView
+            project={selectedProject}
+            onBack={() => setSelectedProject(null)}
+            allProjects={projectsData}
+            onSelectProject={setSelectedProject}
+          />
+
         ) : (
-          <CardGrid projects={filteredProjects} onSelect={setSelectedProject} />
+          <>
+            {(activeTypes.length > 0 || activeTags.length > 0) && (
+              <div className="content-toolbar">
+                <div className="content-toolbar-left">
+                  Showing <strong>{filteredProjects.length}</strong> projects
+                </div>
+                <button className="content-toolbar-btn" type="button" onClick={clearAllFilters}>
+                  Clear all filters
+                </button>
+              </div>
+            )}
+            <CardGrid projects={filteredProjects} onSelect={setSelectedProject} />
+          </>
         )}
       </main>
     </div>
