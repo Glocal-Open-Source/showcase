@@ -137,9 +137,6 @@ const Sidebar = ({
           <img src="logo.png" alt="GLOCAL Logo" className="logo" />
         </a>
         <div className="sidebar-sub">
-          <span className="pill">
-            <FontAwesomeIcon icon={faFilter} /> Filters
-          </span>
           {(selectedTypeCount + selectedTagCount) > 0 && (
             <span className="pill pill-strong">
               {selectedTypeCount + selectedTagCount} active
