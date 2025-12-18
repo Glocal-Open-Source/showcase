@@ -147,12 +147,7 @@ const Sidebar = ({
 
       {/* Types */}
       <div className="panel">
-        <button
-          type="button"
-          className="panel-head"
-          onClick={() => setTypesOpen((v) => !v)}
-          aria-expanded={typesOpen}
-        >
+        <div className="panel-head">
           <div className="panel-title">
             Content Types
             {selectedTypeCount > 0 && <span className="badge">{selectedTypeCount}</span>}
@@ -162,19 +157,14 @@ const Sidebar = ({
               <button
                 type="button"
                 className="icon-btn"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  clearTypes();
-                }}
+                onClick={clearTypes}
                 aria-label="Clear type filters"
               >
                 <FontAwesomeIcon icon={faTrash} />
               </button>
             )}
-            <span className={"chev " + (typesOpen ? "open" : "")}>▾</span>
           </div>
-        </button>
-
+        </div>
         {typesOpen && (
           <div className="panel-content">
             <div className="type-grid">
@@ -196,33 +186,25 @@ const Sidebar = ({
 
       {/* Tags */}
       <div className="panel">
-        <button
-          type="button"
-          className="panel-head"
-          onClick={() => setTagsOpen((v) => !v)}
-          aria-expanded={tagsOpen}
-        >
+        <div className="panel-head">
           <div className="panel-title">
-            Tags
-            {selectedTagCount > 0 && <span className="badge">{selectedTagCount}</span>}
+            Filter by Tag
+            {selectedTypeCount > 0 && <span className="badge">{selectedTypeCount}</span>}
           </div>
           <div className="panel-actions">
-            {selectedTagCount > 0 && (
+            {selectedTypeCount > 0 && (
               <button
                 type="button"
                 className="icon-btn"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  clearTags();
-                }}
-                aria-label="Clear tag filters"
+                onClick={clearTypes}
+                aria-label="Clear type filters"
               >
                 <FontAwesomeIcon icon={faTrash} />
               </button>
             )}
-            <span className={"chev " + (tagsOpen ? "open" : "")}>▾</span>
           </div>
-        </button>
+        </div>
+
 
         {tagsOpen && (
           <div className="panel-content">

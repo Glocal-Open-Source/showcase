@@ -18,7 +18,7 @@
 /* lock background scroll when drawer open */
 .sidebar-lock-scroll { overflow: hidden; }
 
-button { border-radius: 0; }
+.sidebar button { border-radius: 0; }
 
 /* ============ Mobile topbar ============ */
 .mobile-topbar {
@@ -455,6 +455,27 @@ button { border-radius: 0; }
 /* ============ Responsive ============ */
 @media (max-width: 980px) {
   .mobile-topbar { display: flex; }
-  .sidebar.desktop { display: none; }
-  .drawer { display: block; }
+  .sidebar.desktop { display: none !important; }
+  .drawer {
+    display: none;
+  }
+
+  .drawer.open {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 120;
+  }
+
+  .sidebar.desktop {
+    width: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    pointer-events: none !important;
+  }
+
+  .panel {
+    padding-bottom: 20%;
+  }
+
 }
