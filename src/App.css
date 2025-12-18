@@ -668,7 +668,7 @@ img.shrinkToFit { display: block; width: 100% !important; height: auto !importan
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 11px;
   flex-wrap: wrap;
 
   padding: 10px 10px;
