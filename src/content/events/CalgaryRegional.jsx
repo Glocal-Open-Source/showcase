@@ -86,7 +86,7 @@ export default function CalgaryRegional() {
 
       <figure style={{ marginTop: "2rem" }}>
         <img
-          src="thumbnails/events/calgary-showcase.jpg"
+          src="/showcase/thumbnails/events/calgary-showcase.jpg"
           alt="2025 Calgary Regional Showcase"
           style={{
             width: "100%",

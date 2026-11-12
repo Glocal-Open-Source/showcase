@@ -68,12 +68,12 @@ export default function PostElection() {
         >
   <p style={{ padding: "1rem", textAlign: "center", margin: 0 }}>
     PDF preview unavailable.{" "}
-    <a href="/content/postelection.pdf" target="_blank" rel="noopener noreferrer" style={{ color: "#5b2bff", fontWeight: 600 }}>Open PDF ↗</a>
+    <a href="/showcase/content/postelection.pdf" target="_blank" rel="noopener noreferrer" style={{ color: "#5b2bff", fontWeight: 600 }}>Open PDF ↗</a>
   </p>
 </object>
         <p style={{ marginTop: "0.5rem" }}>
           <a
-            href="/content/postelection.pdf"
+            href="/showcase/content/postelection.pdf"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "#5b2bff", fontWeight: 600 }}
