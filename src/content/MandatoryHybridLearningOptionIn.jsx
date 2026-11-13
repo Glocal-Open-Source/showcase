@@ -22,12 +22,12 @@ export default function MandatoryHybridLearningOptionIn() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/mandatory-hybrid-learning-option-in-secondary-schools.pdf"
+          data="/showcase/content/mandatory-hybrid-learning-option-in-secondary-schools.pdf"
           type="application/pdf"
           aria-label="Mandatory Hybrid Learning Option in Secondary Schools"
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/mandatory-hybrid-learning-option-in-secondary-schools.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/mandatory-hybrid-learning-option-in-secondary-schools.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

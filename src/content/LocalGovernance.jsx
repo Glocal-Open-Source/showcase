@@ -44,7 +44,7 @@ export default function LocalGovernance() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Read the Full Report</h3>
         <object
-          data="content/localgovernance.pdf" type="application/pdf" aria-label="Local Governance Structures in Canada"
+          data="/showcase/content/localgovernance.pdf" type="application/pdf" aria-label="Local Governance Structures in Canada"
           width="100%"
           height="1000px"
           style={{

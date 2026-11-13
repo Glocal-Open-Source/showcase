@@ -22,12 +22,12 @@ export default function FederalismDynamicsEnhancingPolicyEfficacy() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/federalism-in-canada.pdf"
+          data="/showcase/content/federalism-in-canada.pdf"
           type="application/pdf"
           aria-label="Federalism Dynamics: Enhancing Policy Efficacy through Development, Administration, and Delivery Strategies"
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/federalism-in-canada.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/federalism-in-canada.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

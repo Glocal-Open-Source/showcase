@@ -391,7 +391,7 @@ const projects = [
     cohort: "Admin",
     description:
       "A civic engagement tool on YouCount.ca that allows Canadians to ask and upvote questions about government, democracy, and representation — bridging citizens and policymakers.",
-    image: "/showcase/thumbnails/ask-eager-beaver-thumbnail.png",
+    image: "/showcase/thumbnails/governance.jpg",
     tags: ["civic-tech", "civic-education", "civic-engagement"],
     component: AskBeaver,
     embed: "https://www.youcount.ca/ask-eager-beaver",
@@ -666,7 +666,7 @@ const projects = [
     cohort: "NYSN",
     description: "A comprehensive analysis of youth mental health trends in Canada and their correlation with political trust and voter participation, utilizing data from national surveys and electoral studies.",
     image: "/showcase/thumbnails/youth-mental-health.jpg",
-    embed: "content/aidan-health.pdf",
+    embed: "/showcase/thumbnails/aidan-health.pdf",
     tags: ["statistics-canada", "data-analysis", "youth-engagement"],
   category: "Mental Health",
   },
@@ -729,7 +729,7 @@ const projects = [
     description:
       "Lillian Pianosi, Elias Titian, Joey Lee, Ethan Gallipeau, and Tim Guan compiled a national dataset of 358 Canadian political parties (340 active) over five weeks using Python/Pandas, addressing data quality challenges and identifying opportunities for automation and improved workflow design.",
     image: "/showcase/thumbnails/parties.png",
-    embed: "content/politicalparties.pdf",
+    embed: "/showcase/thumbnails/politicalparties.pdf",
     tags: ["open-data", "data-analysis", "governance"],
     component: CanadianParties,
   category: "Parties & Politics",
@@ -743,7 +743,7 @@ const projects = [
     cohort: "NYSN",
     description: "An in-depth analysis of the debt burden faced by young Canadians, exploring factors such as student loans, credit card debt, and housing costs, and their implications for financial stability and future economic prospects.",
     image: "/showcase/thumbnails/debt.jpg",
-    embed: "content/debt.pdf",
+    embed: "/showcase/thumbnails/debt.pdf",
     tags: ["statistics-canada", "data-analysis", "youth-engagement"],
   category: "Data for Civic Impact",
   },
@@ -756,7 +756,7 @@ const projects = [
     embed: "https://github.com/dbiel-77/awesome-glocal",
     description:
       "A curated list of useful, accessible scripts built by members of the GLOCAL community. Focused on simplifying workflows, improving usability, and supporting users across different technical skill levels.",
-    image: "/showcase/thumbnails/github.png",
+    image: "/showcase/thumbnails/governance.jpg",
     tags: ["civic-tech", "open-data"],
   category: "Digital Tech for Civic Impact",
 
@@ -770,7 +770,7 @@ const projects = [
     cohort: "Admin",
     description:
       "An accessible overview of Canada's refugee system, tracing the journey from initial application and eligibility determination through to arrival, integration, and long-term settlement — with a focus on the policies and supports that shape each stage.",
-    image: "/showcase/thumbnails/20260430-170052.jpg",
+    image: "/showcase/thumbnails/governance.jpg",
     tags: ["democracy-research", "youth-engagement"],
   category: "Newcomers, Refugees, Immigration, Settlement & Citizenship",
   },
@@ -813,7 +813,7 @@ const projects = [
     description:
       "A research-driven project translating mental health and disability policy insights into accessible public tools — including infographics, interactive quizzes, and a resource website — to bridge the gap between academic findings and everyday understanding.",
     image: "/showcase/thumbnails/mental-health.jpg",
-    embed: "content/Placement Presentation.pdf",
+    embed: "/showcase/thumbnails/Placement Presentation.pdf",
     tags: ["open-data", "youth-engagement"],
     component: MentalHealthAndDisability,
   category: "Mental Health",
@@ -829,7 +829,7 @@ const projects = [
     description:
       "An International Law 3201 project that identified gaps in how international students access legal protections in Canada, addressing them through simplified, actionable resources covering immigration, labour, safety, and human rights.",
     image: "/showcase/thumbnails/poznan-poland-february-26-2025-600nw-2597914809.webp",
-    embed: "content/immigration laws.pdf",
+    embed: "/showcase/thumbnails/immigration laws.pdf",
     tags: ["civic-education", "open-data", "democracy-research"],
     component: ImmigrationLawsTips,
   category: "Justice & Legal Literacy",
@@ -844,7 +844,7 @@ const projects = [
     description:
       "COVID-19 reduced youth employment and delayed early work experience for Gen Z, while economic pressures and increased digital engagement shaped their financial behaviour and learning.",
     image: "/showcase/thumbnails/making-a-budget-tracking-finances.jpg",
-    embed: "content/GLOCAL Final Report.pdf",
+    embed: "/showcase/thumbnails/GLOCAL Final Report.pdf",
     tags: ["civic-education", "data-analysis", "open-data"],
   category: "Economy & Economic Inclusion",
 
@@ -859,7 +859,7 @@ const projects = [
     description:
       "A project by Sooa Lee, Jaden Seaforth, and Areeb Mohsin that identified usability issues in the YouCount platform and developed a mobile solution with simplified navigation, clearer terminology, and centralized user features.",
     image: "/showcase/thumbnails/Screenshot 2026-05-01 141747.png",
-    embed: "content/YouCount Mobile Design Project Group Presentation.pdf",
+    embed: "/showcase/thumbnails/YouCount Mobile Design Project Group Presentation.pdf",
     tags: ["civic-tech", "open-data", "youth-engagement"],
     component: YoucountMobileAppRedesigningAccess,
   category: "Design for Civic Impact",
@@ -874,7 +874,7 @@ const projects = [
     description:
       "At Inuksuk High School in Iqaluit, this initiative empowers students to grow their own vegetables and herbs indoors, a step toward reclaiming food resilience in one of the most expensive food regions in the country.",
     image: "/showcase/thumbnails/glocal-foundation.png",
-    embed: "content/glocal-foundation.pdf",
+    embed: "/showcase/thumbnails/glocal-foundation.pdf",
     tags: ["microgrants", "2024", "nunavut", "featured"],
   category: "Urban, Rural & Northern Communities",
 
@@ -936,7 +936,7 @@ const projects = [
   description:
     "The spread of misinformation on social media presents a serious threat to the security of democracies around the world. This project addresses the challenges of social media misinformation for Canadian policymaking by examining legal constraints to misinformation legislation in five comparable democracies: Germany, France, the U.K., the U.S., and Australia. The results of this comparative analysis help to advance a potential Canadian response to the problem of misinformation on social media with respect to Canada's unique legal and political context. The significance of this project is to enhance the public's understanding why responding to the problem of social media misinformation is so complicated and nuanced because responses must balance contradicting goals of protecting free speech and preventing harmful misinformation from spreading. However, as I demonstrate with this project, policymakers do not need to choose between one or other other. They can and have found ways to satisfy both.",
   image: "/showcase/thumbnails/pexels-diva-34991378.jpg",
-  embed: "content/glocal-grant-competition-politics-law-and-the-challenge-of-social-media-misinformation-docx.pdf",
+  embed: "/showcase/thumbnails/glocal-grant-competition-politics-law-and-the-challenge-of-social-media-misinformation-docx.pdf",
   tags: ["research", "civic-engagement", "civic-education", "british-columbia", "microgrants-2023"],
   cohort: "Microgrant 2023",
   category: "Media Literacy & Misinformation & Disinformation",
@@ -949,7 +949,7 @@ const projects = [
   description:
     "The \"How Air Quality is Important\" project is dedicated to tackling pressing issues related to air quality with a multifaceted approach. By assessing and monitoring air quality levels, the project aims to educate local communities about the impact of pollution on health, ecosystems, and overall well-being. This initiative aligns seamlessly with the goals of civic engagement and civic knowledge mobilization set forth by the GLOCAL Foundation. Through the project, the emphasis is not only on fostering environmental awareness but also on empowering citizens with accessible information, engaging them in the democratic process, and providing opportunities for digital skill development. By addressing a global issue at the local level, the project contributes to a more inclusive, transparent, and engaging democratic participation, fostering a sense of global understanding among volunteers.",
   image: "/showcase/thumbnails/cub-air-pollution-unit-image-new.jpg",
-  embed: "content/1.png",
+  embed: "/showcase/thumbnails/1.png",
   tags: ["environment", "microgrants-2023", "british-columbia", "research", "civic-education"],
   cohort: "Microgrant 2023",
   category: "Environment",
@@ -975,7 +975,7 @@ const projects = [
   description:
     "The \"How to Cope with Social Anxiety Disorder\" project provides crucial resources and coping strategies to help individuals manage social anxiety, aiming to enhance well-being and foster inclusivity. By promoting mental health awareness and support, it contributes to a more accessible and understanding society, aligning with the GLOCAL Foundation's values.",
   image: "/showcase/thumbnails/mental-health-group-discussion-topics-brain-types.jpg",
-  embed: "content/social-anxiety-disorder-glocal-foundation-docx.pdf",
+  embed: "/showcase/thumbnails/social-anxiety-disorder-glocal-foundation-docx.pdf",
   tags: ["research", "microgrants-2023", "british-columbia", "mental-health", "youth-engagement"],
   cohort: "Microgrant 2023",
   component: HowToCopeWithSocial,
@@ -1029,7 +1029,7 @@ const projects = [
   description:
     "Housifit is a mobile application designed to address Canada’s escalating housing demand—especially for immigrants and young Canadians—by streamlining tenant-landlord communication, enhancing property searches with creative, user-friendly features, and fostering community engagement. This innovative platform not only improves cost-efficiency and housing accessibility but also aligns with civic and community-focused goals advocated by CANConnect and the GLOCAL Foundation.",
   image: "https://images.pexels.com/photos/8963083/pexels-photo-8963083.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/ux-case-study-presentation.pdf",
+  embed: "/showcase/thumbnails/ux-case-study-presentation.pdf",
   tags: ["civic-tech", "data-analysis", "data-visualization", "manitoba", "microgrants-2023", "youth-engagement"],
   cohort: "Microgrant 2023",
   component: HousifitAHouseRentingApp,
@@ -1044,7 +1044,7 @@ const projects = [
   description:
     "I created a concise, accessible brochure using a Q&A format and impactful images to help newcomers in Canada better understand residential schools and the responsibilities of reconciliation, addressing widespread misinformation and fostering greater awareness of Indigenous issues. This initiative supports GLOCAL’s goal to build inclusive communities and reduce prejudice among immigrants and refugees by promoting accurate information and understanding about Indigenous peoples and their history.",
   image: "https://images.pexels.com/photos/14438967/pexels-photo-14438967.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/newcomer-s-guide-unveiling-canada-s-residential-school-history-ruhani-jindal-microgrants-20231115.pdf",
+  embed: "/showcase/thumbnails/newcomer-s-guide-unveiling-canada-s-residential-school-history-ruhani-jindal-microgrants-20231115.pdf",
   tags: ["manitoba", "microgrants-2023", "indigenous-engagement", "research", "civic-education"],
   cohort: "Microgrant 2023",
   component: NewcomersGuideUnveilingCanadasResidential,
@@ -1058,7 +1058,7 @@ const projects = [
   description:
     "My project seeks to raise youth awareness about historical violations of Indigenous Peoples' rights by European settlers and highlight Indigenous beliefs that can benefit modern society, aiming to reduce prejudice and misinformation while promoting the value of traditional Indigenous knowledge in line with GLOCAL’s mission of fostering inclusive and socially innovative communities.",
   image: "https://images.pexels.com/photos/5591428/pexels-photo-5591428.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/canconnect-microgrant-project-pptx.pdf",
+  embed: "/showcase/thumbnails/canconnect-microgrant-project-pptx.pdf",
   tags: ["manitoba", "microgrants-2023", "research", "indigenous-engagement", "civic-education", "youth-engagement"],
   cohort: "Microgrant 2023",
   component: HarmonyInLawIntegratingIndigenous,
@@ -1087,7 +1087,7 @@ const projects = [
   description:
     "Our project explores hybrid learning, a flexible educational model where students can attend classes either in person or virtually, which has grown during the COVID-19 pandemic. Implementing hybrid learning in secondary institutions would enhance student choice, reduce financial and commute burdens, and increase overall flexibility.",
   image: "https://images.pexels.com/photos/5303542/pexels-photo-5303542.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/mandatory-hybrid-learning-option-in-secondary-schools.pdf",
+  embed: "/showcase/thumbnails/mandatory-hybrid-learning-option-in-secondary-schools.pdf",
   tags: ["research", "youth-engagement", "microgrants-2023", "civic-education", "civic-engagement"],
   cohort: "Microgrant 2023",
   component: MandatoryHybridLearningOptionIn,
@@ -1101,8 +1101,8 @@ const projects = [
   type: "interactive",
   description:
     "I created an oil painting titled \"A Backwards Ocean\" to highlight the contrast between healthy marine environments and the devastating effects of pollution, aiming to inspire civic engagement through ocean clean-up initiatives. Additionally, I provided information on accessible volunteer opportunities and included a brief policy analysis of Canada's ocean conservation efforts.",
-  image: "/showcase/thumbnails/a-backwards-ocean.jpg",
-  embed: "content/a-backwards-ocean.jpg",
+  image: "/showcase/thumbnails/governance.jpg",
+  embed: "/showcase/thumbnails/governance.jpg",
   tags: ["microgrants-2023", "artwork", "environment", "civic-engagement"],
   cohort: "Microgrant 2023",
   component: ABackwardsOcean,
@@ -1130,7 +1130,7 @@ const projects = [
   description:
     "As youths, we often lack the confidence, knowledge, and inspiration to start sustainable small businesses, which is why UNSD Youth organized an event to showcase Vancouver’s small business market and educate about sustainable practices, aiming to encourage community support and align with the goals of CANConnect and the Glocal Foundation.",
   image: "https://images.pexels.com/photos/5230953/pexels-photo-5230953.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/glocal-microgrant-proposal-marketing-only.pdf",
+  embed: "/showcase/thumbnails/glocal-microgrant-proposal-marketing-only.pdf",
   tags: ["microgrants-2023", "british-columbia", "events", "civic-engagement", "youth-engagement", "environment"],
   cohort: "Microgrant 2023",
   component: SustainableBusinessShowcase,
@@ -1144,7 +1144,7 @@ const projects = [
   description:
     "This research project examines the causes and challenges of renters’ carbon footprints in Vancouver, reviews academic literature and policy responses from other jurisdictions, and proposes equitable policy solutions to reduce rental sector emissions. The project was recognized with First Place at the Vancouver HUBBUB CityStudio Conference and was completed as part of UBC’s Graduate Program in Political Science.",
   image: "https://images.pexels.com/photos/29072584/pexels-photo-29072584.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/reducing-renters-carbon-footprint-in-the-city-of-vancouver-docx.pdf",
+  embed: "/showcase/thumbnails/reducing-renters-carbon-footprint-in-the-city-of-vancouver-docx.pdf",
   tags: ["british-columbia", "microgrants-2023", "environment", "research", "civic-engagement"],
   cohort: "Microgrant 2023",
   component: ReducingRentersCarbonFootprintIn,
@@ -1159,7 +1159,7 @@ const projects = [
   description:
     "This project is a comprehensive system designed to collect and analyze a wide array of local public news and social media posts. Its primary aim is to convert large volumes of raw news data into usable and meaningful analytics. This project is driven by the necessity to interpret and quantify the changing stories and opinions found in our vast online media landscape, a task that is increasingly important for understanding political events and social trends that influence public conversations and policy-making.",
   image: "https://images.pexels.com/photos/35038712/pexels-photo-35038712.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/canada-s-media-monitor-keven-pi.pdf",
+  embed: "/showcase/thumbnails/canada-s-media-monitor-keven-pi.pdf",
   tags: ["civic-tech", "data-analysis", "data-visualization", "research", "microgrants-2023", "british-columbia"],
   cohort: "Microgrant 2023",
   component: CanadasMediaMonitor,
@@ -1173,7 +1173,7 @@ const projects = [
   description:
     "This paper analyzes Canada’s position in a shifting global order through a SWOT analysis, arguing that the potential decline of the rules-based international order—due to the rise of China and the Indo-Pacific region—poses significant challenges for Canada’s international influence and economic wellbeing, making it a central concern for Canadian foreign policy. Understanding these dynamics is crucial for grasping the future of Canadian politics and their global implications.",
   image: "https://images.pexels.com/photos/7328/building-architecture-historical-tower.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/canada-and-the-world.pdf",
+  embed: "/showcase/thumbnails/canada-and-the-world.pdf",
   tags: ["microgrants-2023", "research", "civic-education"],
   cohort: "Microgrant 2023",
   component: CanadaAndTheWorldA,
@@ -1188,7 +1188,7 @@ const projects = [
   description:
     "This project critically analyzes the role of Federalism in shaping public policy development, administration, and delivery in Canada, using the healthcare system as a case study to illustrate both its advantages and drawbacks. By bridging civic engagement and knowledge mobilization, it provides insights and recommendations to inform policymakers and empower citizens in governance discussions, aligning with the objectives of CANConnect and the GLOCAL Foundation.",
   image: "https://images.pexels.com/photos/35013248/pexels-photo-35013248.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/federalism-in-canada.pdf",
+  embed: "/showcase/thumbnails/federalism-in-canada.pdf",
   tags: ["microgrants-2023", "british-columbia", "research", "civic-education", "civic-engagement"],
   cohort: "Microgrant 2023",
   component: FederalismDynamicsEnhancingPolicyEfficacy,
@@ -1243,7 +1243,7 @@ const projects = [
   description:
     "Racial discrimination in Canadian workplaces significantly contributes to mental health challenges among young Black professionals, leading to issues like anxiety, depression, and substance abuse, with over half reporting workplace discrimination as a major cause. This not only affects individual well-being but also impacts organizational productivity and the wider economy.",
   image: "https://images.pexels.com/photos/8276594/pexels-photo-8276594.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/young-black-daniel-akinjise.pdf",
+  embed: "/showcase/thumbnails/young-black-daniel-akinjise.pdf",
   tags: ["microgrants-2023", "ontario", "research", "youth-engagement", "mental-health", "civic-engagement"],
   cohort: "Microgrant 2023",
   component: YoungAndBlack,
@@ -1301,7 +1301,7 @@ const projects = [
   tags: ["research", "civic-education", "civic-engagement", "british-columbia", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: HousingAffordabilityInCanadianPolitics,
-  embed: "content/housing-affordability-in-canadian-politics-informational-web.pdf",
+  embed: "/showcase/thumbnails/housing-affordability-in-canadian-politics-informational-web.pdf",
   category: "Housing & Affordability",
 },
 
@@ -1329,7 +1329,7 @@ const projects = [
   tags: ["environment", "research", "civic-engagement", "quebec", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: TheImpactOfClimateChange,
-  embed: "content/the-impact-of-climate-change-on-quebec-s-tourism-industry.pdf",
+  embed: "/showcase/thumbnails/the-impact-of-climate-change-on-quebec-s-tourism-industry.pdf",
   category: "Climate Change",
 },
 
@@ -1343,7 +1343,7 @@ const projects = [
   tags: ["research", "civic-education", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: UnderstandingCreditScoreAndIts,
-  embed: "content/understanding-credit-score-and-its-importance-in-canada.pdf",
+  embed: "/showcase/thumbnails/understanding-credit-score-and-its-importance-in-canada.pdf",
   category: "Economy & Economic Inclusion",
 
 },
@@ -1358,7 +1358,7 @@ const projects = [
   tags: ["2024", "microgrants"],
   cohort: "Microgrant 2024",
   component: HowCitizensAreInfluencedBy,
-  embed: "content/how-citizens-are-influenced-by-political-party-candidates.pdf",
+  embed: "/showcase/thumbnails/how-citizens-are-influenced-by-political-party-candidates.pdf",
   category: "Parties & Politics",
 },
 
@@ -1372,7 +1372,7 @@ const projects = [
   tags: ["environment", "research", "data-analysis", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: NavigatingWasteAComprehensiveAnalysis,
-  embed: "content/navigating-waste-a-comprehensive-analysis-of-waste-managemen.pdf",
+  embed: "/showcase/thumbnails/navigating-waste-a-comprehensive-analysis-of-waste-managemen.pdf",
   category: "Environment",
 
 },
@@ -1387,7 +1387,7 @@ const projects = [
   tags: ["research", "civic-education", "civic-engagement", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: HowToSucceedInCanada,
-  embed: "content/how-to-succeed-in-canada-as-a-newly-arrived-refugee-by-educa.pdf",
+  embed: "/showcase/thumbnails/how-to-succeed-in-canada-as-a-newly-arrived-refugee-by-educa.pdf",
   category: "Newcomers, Refugees, Immigration, Settlement & Citizenship",
 },
 
@@ -1415,7 +1415,7 @@ const projects = [
   tags: ["civic-engagement", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: BaqirAhmadiAnImmigrantLife,
-  embed: "content/baqir-ahmadi-an-immigrant-life-journey-to-canada.pdf",
+  embed: "/showcase/thumbnails/baqir-ahmadi-an-immigrant-life-journey-to-canada.pdf",
   category: "Multiculturalism, Heritage & Community Storytelling",
 },
 
@@ -1429,7 +1429,7 @@ const projects = [
   tags: ["research", "civic-engagement", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: UnderstandingMoroccanCommunitiesInCanada,
-  embed: "content/understanding-moroccan-communities-in-canada.pdf",
+  embed: "/showcase/thumbnails/understanding-moroccan-communities-in-canada.pdf",
   category: "Diaspora Communities & Global Connections",
 
 },
@@ -1444,7 +1444,7 @@ const projects = [
   tags: ["research", "civic-engagement", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: UnderstandingTheJourneyAfghanRefugees,
-  embed: "content/understanding-the-journey-afghan-refugees-in-canada-briefly-.pdf",
+  embed: "/showcase/thumbnails/understanding-the-journey-afghan-refugees-in-canada-briefly-.pdf",
   category: "Newcomers, Refugees, Immigration, Settlement & Citizenship",
 },
 
@@ -1472,7 +1472,7 @@ const projects = [
   tags: ["research", "civic-education", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: CanadianCultureAndNewcomerCulture,
-  embed: "content/canadian-culture-and-newcomer-culture-similarities-and-contr.pdf",
+  embed: "/showcase/thumbnails/canadian-culture-and-newcomer-culture-similarities-and-contr.pdf",
   category: "Newcomers, Refugees, Immigration, Settlement & Citizenship",
 },
 
@@ -1486,7 +1486,7 @@ const projects = [
   tags: ["research", "civic-education", "youth-engagement", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: AGuideToCanadianCopyright,
-  embed: "content/a-guide-to-canadian-copyright-law-a-young-canadian-s-best-fr.pdf",
+  embed: "/showcase/thumbnails/a-guide-to-canadian-copyright-law-a-young-canadian-s-best-fr.pdf",
   category: "Justice & Legal Literacy",
 
 },
@@ -1514,7 +1514,7 @@ const projects = [
   tags: ["civic-tech", "civic-engagement", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: HelpingNewcomersToNavigateThe,
-  embed: "content/helping-newcomers-to-navigate-the-system.pdf",
+  embed: "/showcase/thumbnails/helping-newcomers-to-navigate-the-system.pdf",
   category: "Newcomers, Refugees, Immigration, Settlement & Citizenship",
 
 },
@@ -1540,7 +1540,7 @@ const projects = [
   description:
     "Indigenous children in Canadian Residential Schools suffered significant mental health trauma due to cultural assimilation, abuse, and separation from family, while for decades, most Canadian social workers largely supported the system or remained complicit, only beginning to advocate for Indigenous children's rights and healing in more recent years.",
   image: "https://images.pexels.com/photos/11598790/pexels-photo-11598790.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/sara-saadat-final-project.pdf",
+  embed: "/showcase/thumbnails/sara-saadat-final-project.pdf",
   tags: ["mental-health", "indigenous-engagement", "research", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: TheMentalHealthOfIndigenous,
@@ -1558,7 +1558,7 @@ const projects = [
   tags: ["civic-education", "civic-engagement", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: HowToWriteAResume,
-  embed: "content/how-to-write-a-resume.pdf",
+  embed: "/showcase/thumbnails/how-to-write-a-resume.pdf",
   category: "Employment, Labour & Youth Employment",
 },
 
@@ -1572,7 +1572,7 @@ const projects = [
   tags: ["research", "civic-education", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: TheCanadianParliamentAndIts,
-  embed: "content/the-canadian-parliament-and-its-impacts-on-laws-and-policies.pdf",
+  embed: "/showcase/thumbnails/the-canadian-parliament-and-its-impacts-on-laws-and-policies.pdf",
   category: "Government & Governance",
 
 },
@@ -1587,7 +1587,7 @@ const projects = [
   tags: ["research", "civic-engagement", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: SingleMother,
-  embed: "content/single-mother.pdf",
+  embed: "/showcase/thumbnails/single-mother.pdf",
   category: "Gender Equality",
 },
 
@@ -1615,7 +1615,7 @@ const projects = [
   tags: ["civic-engagement", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: RequestForGenderneutralMenstrualProducts,
-  embed: "content/request-for-gender-neutral-menstrual-products-to-be-availabl.pdf",
+  embed: "/showcase/thumbnails/request-for-gender-neutral-menstrual-products-to-be-availabl.pdf",
   category: "Gender Equality",
 },
 
@@ -1629,7 +1629,7 @@ const projects = [
   tags: ["research", "civic-engagement", "ontario", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: UnhousedRefugeesInOntario,
-  embed: "content/unhoused-refugees-in-ontario.pdf",
+  embed: "/showcase/thumbnails/unhoused-refugees-in-ontario.pdf",
   category: "Homelessness",
 
 },
@@ -1644,7 +1644,7 @@ const projects = [
   tags: ["research", "civic-engagement", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: WelcomeToYourNewHome,
-  embed: "content/welcome-to-your-new-home-acculturation-in-first-and-second-g.pdf",
+  embed: "/showcase/thumbnails/welcome-to-your-new-home-acculturation-in-first-and-second-g.pdf",
   category: "Newcomers, Refugees, Immigration, Settlement & Citizenship",
 },
 
@@ -1658,7 +1658,7 @@ const projects = [
   tags: ["youth-engagement", "civic-engagement", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: ChampionsOfInclusionYouthLeaders,
-  embed: "content/champions-of-inclusion-youth-leaders-camp.pdf",
+  embed: "/showcase/thumbnails/champions-of-inclusion-youth-leaders-camp.pdf",
   category: "Youth Voice & Civic Participation",
 
 },
@@ -1673,7 +1673,7 @@ const projects = [
   tags: ["indigenous-engagement", "research", "civic-engagement", "nova-scotia", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: DocumentingFirstAidTraditionsIn,
-  embed: "content/documenting-first-aid-traditions-in-indigenous-communities-a.pdf",
+  embed: "/showcase/thumbnails/documenting-first-aid-traditions-in-indigenous-communities-a.pdf",
   category: "Indigenous Peoples, Cultures & Reconciliation",
 },
 
@@ -1687,7 +1687,7 @@ const projects = [
   tags: ["civic-tech", "civic-education", "youth-engagement", "microgrants-2024"],
   cohort: "Microgrant 2024",
   component: BeaverQuizamole,
-  embed: "content/beaver-quiz-a-mole.pdf",
+  embed: "/showcase/thumbnails/beaver-quiz-a-mole.pdf",
   category: "Education",
 
 },
@@ -1715,7 +1715,7 @@ const projects = [
   tags: ["microgrants-2023", "research", "alberta", "civic-engagement"],
   cohort: "Microgrant 2023",
   component: AssessmentSettlementJourneyOfAfghan,
-  embed: "content/assessment-settlement-journey-of-afghan-newcomers-in-calgary.pdf",
+  embed: "/showcase/thumbnails/assessment-settlement-journey-of-afghan-newcomers-in-calgary.pdf",
   category: "Newcomers, Refugees, Immigration, Settlement & Citizenship",
 
 },
@@ -1730,7 +1730,7 @@ const projects = [
   tags: ["microgrants-2023", "research", "civic-engagement"],
   cohort: "Microgrant 2023",
   component: HomelessnessInCanada,
-  embed: "content/homelessness-in-canada.pdf",
+  embed: "/showcase/thumbnails/homelessness-in-canada.pdf",
   category: "Homelessness",
 },
 
@@ -1758,7 +1758,7 @@ const projects = [
   tags: ["microgrants-2023", "civic-engagement", "youth-engagement", "ontario"],
   cohort: "Microgrant 2023",
   component: RiseAndShineSeries,
-  embed: "content/rise-and-shine-series.pdf",
+  embed: "/showcase/thumbnails/rise-and-shine-series.pdf",
   category: "Multiculturalism, Heritage & Community Storytelling",
 },
 
@@ -1772,7 +1772,7 @@ const projects = [
   tags: ["microgrants-2023", "civic-education", "civic-engagement"],
   cohort: "Microgrant 2023",
   component: EnglishLanguageLearningForSystems,
-  embed: "content/english-language-learning-for-systems-navigation-and-civic-e.pdf",
+  embed: "/showcase/thumbnails/english-language-learning-for-systems-navigation-and-civic-e.pdf",
   category: "Democracy, Civic Education & Participation",
 
 },
@@ -1828,7 +1828,7 @@ const projects = [
   tags: ["microgrants-2023", "civic-education", "civic-engagement", "artwork"],
   cohort: "Microgrant 2023",
   component: JourneyToMapleDreams,
-  embed: "content/journey-to-maple-dreams.jpg",
+  embed: "/showcase/thumbnails/journey-to-maple-dreams.jpg",
   category: "Multiculturalism, Heritage & Community Storytelling",
 
 },
@@ -1870,7 +1870,7 @@ const projects = [
   tags: ["microgrants-2023", "research", "civic-engagement", "ontario"],
   cohort: "Microgrant 2023",
   component: FoodSecurityInWaterlooRegion,
-  embed: "content/food-security-in-waterloo-region-a-volunteer-s-perspective.pdf",
+  embed: "/showcase/thumbnails/food-security-in-waterloo-region-a-volunteer-s-perspective.pdf",
   category: "Agriculture & Food Security",
 },
 
@@ -1898,7 +1898,7 @@ const projects = [
   tags: ["microgrants-2023", "research", "civic-education"],
   cohort: "Microgrant 2023",
   component: HistoryOfTheLiberalParty,
-  embed: "content/history-of-the-liberal-party.pdf",
+  embed: "/showcase/thumbnails/history-of-the-liberal-party.pdf",
   category: "Parties & Politics",
 },
 
@@ -1926,7 +1926,7 @@ const projects = [
   tags: ["microgrants-2023", "civic-engagement", "youth-engagement", "events"],
   cohort: "Microgrant 2023",
   component: GlobalGovernanceOnCampusCreating,
-  embed: "content/global-governance-on-campus-creating-a-global-impact.mp4",
+  embed: "/showcase/thumbnails/global-governance-on-campus-creating-a-global-impact.mp4",
   category: "Business, Trade & Economic Development",
 },
 
@@ -1940,7 +1940,7 @@ const projects = [
   tags: ["microgrants-2023", "youth-engagement", "civic-tech", "civic-engagement"],
   cohort: "Microgrant 2023",
   component: YouthDigitalTalentEmpowermentProgram,
-  embed: "content/youth-digital-talent-empowerment-program.pdf",
+  embed: "/showcase/thumbnails/youth-digital-talent-empowerment-program.pdf",
   category: "Digital Tech for Civic Impact",
 
 },
@@ -1955,7 +1955,7 @@ const projects = [
   tags: ["microgrants-2023", "research", "civic-education", "civic-engagement"],
   cohort: "Microgrant 2023",
   component: RefugeesInCanada,
-  embed: "content/refugees-in-canada.pdf",
+  embed: "/showcase/thumbnails/refugees-in-canada.pdf",
   category: "Newcomers, Refugees, Immigration, Settlement & Citizenship",
 },
 
@@ -1969,7 +1969,7 @@ const projects = [
   tags: ["microgrants-2023", "indigenous-engagement", "research"],
   cohort: "Microgrant 2023",
   component: ChildWelfareAndIndigenousChildren,
-  embed: "content/child-welfare-and-indigenous-children.pdf",
+  embed: "/showcase/thumbnails/child-welfare-and-indigenous-children.pdf",
   category: "Indigenous Peoples, Cultures & Reconciliation",
 
 },
@@ -1984,7 +1984,7 @@ const projects = [
   tags: ["microgrants-2023", "civic-engagement", "artwork", "research"],
   cohort: "Microgrant 2023",
   component: HumansInFlight,
-  embed: "content/humans-in-flight.pdf",
+  embed: "/showcase/thumbnails/humans-in-flight.pdf",
   category: "Multiculturalism, Heritage & Community Storytelling",
 },
 
@@ -2012,7 +2012,7 @@ const projects = [
   tags: ["microgrants-2023", "research", "civic-engagement"],
   cohort: "Microgrant 2023",
   component: HarmonyInDiversityUnravelingThe,
-  embed: "content/harmony-in-diversity-unraveling-the-tapestry-of-same-sex-mar.pdf",
+  embed: "/showcase/thumbnails/harmony-in-diversity-unraveling-the-tapestry-of-same-sex-mar.pdf",
   category: "2SLGBTQIA+",
 },
 
@@ -2053,7 +2053,7 @@ const projects = [
   tags: ["microgrants-2023", "research", "indigenous-engagement", "civic-engagement"],
   cohort: "Microgrant 2023",
   component: RelationsInCanada,
-  embed: "content/relations-in-canada.pdf",
+  embed: "/showcase/thumbnails/relations-in-canada.pdf",
   category: "Indigenous Peoples, Cultures & Reconciliation",
 
 },
@@ -2065,7 +2065,7 @@ const projects = [
   description:
     "My research project aims to improve the integration and well-being of young new immigrants in Canada by identifying their unique challenges, analyzing factors for successful integration, evaluating existing support programs, and proposing evidence-based strategies for improvement.",
   image: "https://images.pexels.com/photos/7220589/pexels-photo-7220589.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/copie-de-community-and-family-history-history-1st-grade.pdf",
+  embed: "/showcase/thumbnails/copie-de-community-and-family-history-history-1st-grade.pdf",
   tags: ["microgrants-2023", "research", "civic-engagement"],
   cohort: "Microgrant 2023",
   component: NewYoungImmigrantsInCanada2,
@@ -2079,7 +2079,7 @@ const projects = [
   description:
     "Single mothers often face financial struggles and societal stigma, but they also build strong bonds with their children and exemplify resilience; understanding their unique experiences highlights the importance of community support and encouragement for this family type.",
   image: "https://images.pexels.com/photos/30580213/pexels-photo-30580213.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/single-parenitng-project-atia-yama.pdf",
+  embed: "/showcase/thumbnails/single-parenitng-project-atia-yama.pdf",
   tags: ["microgrants-2023", "research", "civic-engagement"],
   cohort: "Microgrant 2023",
   component: SingleParentingSingleMothers,
@@ -2094,7 +2094,7 @@ const projects = [
   description:
     "I am writing and illustrating a book about Shakeba, an Afghan girl whose refugee journey to Canada highlights both the challenges and triumphs of starting over, anxiously awaiting reunion with her mother, and ultimately finding resilience through a positive attitude. The story aims to deepen understanding among immigrant and non-immigrant readers alike about the privileges of life in Canada while authentically portraying the refugee experience.",
   image: "https://images.pexels.com/photos/35568767/pexels-photo-35568767.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/mahsa-s-full-story-and-book-script.pdf",
+  embed: "/showcase/thumbnails/mahsa-s-full-story-and-book-script.pdf",
   tags: ["microgrants-2023", "civic-engagement", "artwork"],
   cohort: "Microgrant 2023",
   component: ShakibaAPersianGirlsName,
@@ -2109,7 +2109,7 @@ const projects = [
   description:
     "BacharLorai's 8-month online program empowers 10 youth aged 18–25 to become social impact leaders through skills workshops, networking, and a global capstone project supporting Bangladeshi diaspora communities in Canada. Fellows share their learning online to benefit a broader audience.",
   image: "https://images.pexels.com/photos/10484474/pexels-photo-10484474.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/cst-107.webp",
+  embed: "/showcase/thumbnails/cst-107.webp",
   tags: ["microgrants", "2024", "ontario", "featured"],
   cohort: "Microgrant 2024",
   component: TheGlobalImpactFellowship2,
@@ -2136,7 +2136,7 @@ const projects = [
   description:
     "This documentary showcases how young leaders harness digital platforms to address issues such as inequality, food insecurity, mental health, and homelessness. By highlighting youth-led initiatives and exploring the root causes of these challenges, it educates and empowers viewers to use digital tools for civic engagement and drive a more equitable future.",
   image: "https://images.pexels.com/photos/37870779/pexels-photo-37870779.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/youth-innovating-for-change-main-project-report-youth-innovating-for-change.pdf",
+  embed: "/showcase/thumbnails/youth-innovating-for-change-main-project-report-youth-innovating-for-change.pdf",
   tags: ["microgrants", "2024", "ontario", "featured"],
   cohort: "Microgrant 2024",
   component: YouthInnovatingForChange,
@@ -2255,7 +2255,7 @@ const projects = [
   image: "https://images.pexels.com/photos/32026177/pexels-photo-32026177.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
   cohort: "Microgrant 2024",
   component: StemMentorshipPodcastForYouth,
-  embed: "content/stem-mentorship-podcast-for-youth.pdf",
+  embed: "/showcase/thumbnails/stem-mentorship-podcast-for-youth.pdf",
   category: "Education",
 
 },
@@ -2320,7 +2320,7 @@ const projects = [
   description:
     "Inclusive Canada magazine leverages memes to amplify youth voices on inclusivity, sharing diverse experiences and sparking important conversations to empower young people in building a more equitable society.",
   image: "https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/polizine-issue2.pdf",
+  embed: "/showcase/thumbnails/polizine-issue2.pdf",
   cohort: "Microgrant 2024",
   component: InclusiveCanada,
   category: "Rights, Equity, & Inclusion",
@@ -2348,7 +2348,7 @@ const projects = [
   description:
     "My Family Journey: From Afghanistan to Canada tells the story of fleeing Afghanistan and resettling in Canada, and emphasizes the importance of kindness and community support for refugees through partnerships with CANConnect and the GLOCAL Foundation.",
   image: "https://images.pexels.com/photos/10383328/pexels-photo-10383328.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/from-afghanistan-to-canada-my-family-journey.pdf",
+  embed: "/showcase/thumbnails/from-afghanistan-to-canada-my-family-journey.pdf",
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: MyFamilyJourneyFromAfghanistan,
@@ -2362,7 +2362,7 @@ const projects = [
   description:
     "A Daughter from Herat: The Journey of Marzia recounts Marzia's courageous struggle for freedom and women's rights in Afghanistan, showcasing her resilience as she overcomes adversity and rebuilds her life across borders.",
   image: "https://images.pexels.com/photos/18071720/pexels-photo-18071720.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/a-daughter-from-herat-english-version.pdf",
+  embed: "/showcase/thumbnails/a-daughter-from-herat-english-version.pdf",
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: ADaughterFromHeratThe,
@@ -2377,7 +2377,7 @@ const projects = [
   description:
     "The project seeks to close the financial literacy gap among Ontario youth by introducing a customized, engaging school curriculum that equips students with vital money management skills, empowering them to make informed financial decisions for lifelong success.",
   image: "https://images.pexels.com/photos/5909814/pexels-photo-5909814.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/financial-literacy-curriculum.pdf",
+  embed: "/showcase/thumbnails/financial-literacy-curriculum.pdf",
   cohort: "Microgrant 2024",
   component: FinancialLiteracyCurriculum,
   category: "Financial Literacy",
@@ -2390,7 +2390,7 @@ const projects = [
   description:
     "This project hosts a tote bag paint night around exam season that combines creative expression with mental health education for high school and university students. Through expert guidance, presentations on mental health in Canada, and community outreach, it aims to reduce stigma, promote awareness of available supports, and encourage healthier coping strategies.",
   image: "https://images.pexels.com/photos/4442087/pexels-photo-4442087.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/screenshot-2026-06-01-093823.png",
+  embed: "/showcase/thumbnails/screenshot-2026-06-01-093823.png",
   tags: ["featured", "2024", "microgrants", "ontario"],
   cohort: "Microgrant 2024",
   component: ToteallyArtsy,
@@ -2456,7 +2456,7 @@ const projects = [
   description:
     "Green Together is a community project that helps marginalized groups grow their own food indoors using sustainable methods. Through workshops and starter kits, it promotes self-sufficiency, improves access to fresh food, and encourages healthier, environmentally conscious living.",
   image: "https://images.pexels.com/photos/12421351/pexels-photo-12421351.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/green-together-final-report.pdf",
+  embed: "/showcase/thumbnails/green-together-final-report.pdf",
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: GreenTogether,
@@ -2470,7 +2470,7 @@ const projects = [
   description:
     "JEDI Champions is a youth-led initiative that empowers underrepresented students with technical training, leadership skills, and mentorship to design civic solutions focused on justice, equity, decolonization, and inclusion. Through personalized support, it fosters systemic change and enhances civic engagement and knowledge mobilization.",
   image: "https://images.pexels.com/photos/29659894/pexels-photo-29659894.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/fcss-fesc-jedi-champions-program-report-2025-03-31.pdf",
+  embed: "/showcase/thumbnails/fcss-fesc-jedi-champions-program-report-2025-03-31.pdf",
   cohort: "Microgrant 2024",
   component: JediChampions,
   category: "Rights, Equity, & Inclusion",
@@ -2537,7 +2537,7 @@ const projects = [
   description:
     "The HYPE podcast supports marginalized youth by offering mental health and financial literacy education, combating stigma, and encouraging open dialogue. Through mentorship and sharing real-life experiences, it fosters community and equips young people with confidence and practical skills.",
   image: "https://images.pexels.com/photos/16235687/pexels-photo-16235687.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/blue-modern-minimalist-executive-summary-report.png",
+  embed: "/showcase/thumbnails/blue-modern-minimalist-executive-summary-report.png",
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: HypePodcast,
@@ -2589,7 +2589,7 @@ const projects = [
   description:
     "Students in Grades 10–12 from Fort Resolution, Northwest Territories, used photography to document and celebrate their community, and shared their stories nationally in Ottawa.",
   image: "https://images.pexels.com/photos/15022831/pexels-photo-15022831.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/final-report-through-our-lens-the-story-of-fort-resolution-docx.pdf",
+  embed: "/showcase/thumbnails/final-report-through-our-lens-the-story-of-fort-resolution-docx.pdf",
   tags: ["microgrants", "2024", "northwest-territories", "featured"],
   cohort: "Microgrant 2024",
   component: ThroughOurLensTheStory,
@@ -2634,7 +2634,7 @@ const projects = [
   tags: ["microgrants", "british-columbia", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: Beable,
-  embed: "content/beable.pdf",
+  embed: "/showcase/thumbnails/beable.pdf",
   category: "Accessibility",
 },
 
@@ -2648,7 +2648,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: KuGicaniro,
-  embed: "content/ku-gicaniro.pdf",
+  embed: "/showcase/thumbnails/ku-gicaniro.pdf",
   category: "Multiculturalism, Heritage & Community Storytelling",
 
 },
@@ -2674,7 +2674,7 @@ const projects = [
   image: "https://images.pexels.com/photos/12960362/pexels-photo-12960362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   cohort: "Microgrant 2024",
   component: APlatformForYouthledPolicy,
-  embed: "content/a-platform-for-youth-led-policy-innovation.pdf",
+  embed: "/showcase/thumbnails/a-platform-for-youth-led-policy-innovation.pdf",
   category: "Youth Voice & Civic Participation",
 
 },
@@ -2714,7 +2714,7 @@ const projects = [
   image: "https://images.pexels.com/photos/7693745/pexels-photo-7693745.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
   cohort: "Microgrant 2024",
   component: DigitalMarketingForSmallBusinesses,
-  embed: "content/digital-marketing-for-small-businesses-webinar-series.pdf",
+  embed: "/showcase/thumbnails/digital-marketing-for-small-businesses-webinar-series.pdf",
   category: "Digital Tech for Civic Impact",
 },
 
@@ -2727,7 +2727,7 @@ const projects = [
   image: "https://images.pexels.com/photos/8386136/pexels-photo-8386136.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
   cohort: "Microgrant 2024",
   component: EmpoweringVoicesInsightsIntoAdvancing,
-  embed: "content/empowering-voices-insights-into-advancing-autism-awareness-a.pdf",
+  embed: "/showcase/thumbnails/empowering-voices-insights-into-advancing-autism-awareness-a.pdf",
   category: "Disability",
 
 },
@@ -2738,11 +2738,11 @@ const projects = [
   type: "data",
   description:
     "Baked Blessings is a youth-led initiative that combats food insecurity by serving nutritious meals and teaching young volunteers vital life skills through community engagement. By collaborating with local partners, it empowers youth to lead with compassion and fosters lasting social responsibility.",
-  image: "/showcase/thumbnails/baked-blessings-thumbnail.png",
+  image: "/showcase/thumbnails/governance.jpg",
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: BakedBlessings,
-  embed: "content/baked-blessings.png",
+  embed: "/showcase/thumbnails/baked-blessings.png",
   category: "Agriculture & Food Security",
 },
 
@@ -2756,7 +2756,7 @@ const projects = [
   tags: ["microgrants", "2024"],
   cohort: "Microgrant 2024",
   component: SmallBusinessCybersecurityWebinar,
-  embed: "content/small-business-cybersecurity-webinar.pdf",
+  embed: "/showcase/thumbnails/small-business-cybersecurity-webinar.pdf",
   category: "Cybersecurity, Privacy & Digital Safety",
 
 },
@@ -2771,7 +2771,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: StoriesWithoutBorders,
-  embed: "content/stories-without-borders.mp4",
+  embed: "/showcase/thumbnails/stories-without-borders.mp4",
   category: "Newcomers, Refugees, Immigration, Settlement & Citizenship",
 },
 
@@ -2812,7 +2812,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: APlaceToCallHome,
-  embed: "content/a-place-to-call-home.pdf",
+  embed: "/showcase/thumbnails/a-place-to-call-home.pdf",
   category: "Multiculturalism, Heritage & Community Storytelling",
 
 },
@@ -2888,7 +2888,7 @@ const projects = [
   image: "https://images.pexels.com/photos/7448843/pexels-photo-7448843.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   cohort: "Microgrant 2024",
   component: BuildingBridgesForGlobalYouth,
-  embed: "content/building-bridges-for-global-youth-advocacy.pdf",
+  embed: "/showcase/thumbnails/building-bridges-for-global-youth-advocacy.pdf",
   category: "Global Affairs",
 
 },
@@ -2903,7 +2903,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: ExploringPhotovoiceAsAnImpact,
-  embed: "content/exploring-photovoice-as-an-impact-measurement-tool-for-under.jpg",
+  embed: "/showcase/thumbnails/exploring-photovoice-as-an-impact-measurement-tool-for-under.jpg",
   category: "Climate Change",
 },
 
@@ -2917,7 +2917,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: TheJourneyOfAnImmigrant,
-  embed: "content/the-journey-of-an-immigrant-to-canada.pdf",
+  embed: "/showcase/thumbnails/the-journey-of-an-immigrant-to-canada.pdf",
   category: "Multiculturalism, Heritage & Community Storytelling",
 
 },
@@ -2982,7 +2982,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: TheFutureOfCanadaWhat,
-  embed: "content/the-future-of-canada-what-canadians-think.mp4",
+  embed: "/showcase/thumbnails/the-future-of-canada-what-canadians-think.mp4",
   category: "Newcomers, Refugees, Immigration, Settlement & Citizenship",
 },
 
@@ -3073,7 +3073,7 @@ const projects = [
   image: "https://images.pexels.com/photos/6774948/pexels-photo-6774948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   cohort: "Microgrant 2024",
   component: YouthEntrepreneurshipDevelopmentWebinarWorkshops,
-  embed: "content/youth-entrepreneurship-development-webinar-workshops.pdf",
+  embed: "/showcase/thumbnails/youth-entrepreneurship-development-webinar-workshops.pdf",
   category: "Business & Entrepreneurship",
 
 },
@@ -3115,7 +3115,7 @@ const projects = [
   tags: ["microgrants", "nova-scotia", "2024"],
   cohort: "Microgrant 2024",
   component: AfricvilleACommunityDisplaced,
-  embed: "content/africville-a-community-displaced.pdf",
+  embed: "/showcase/thumbnails/africville-a-community-displaced.pdf",
   category: "Indigenous Peoples, Cultures & Reconciliation",
 },
 
@@ -3195,7 +3195,7 @@ const projects = [
   tags: ["microgrants", "british-columbia"],
   cohort: "Microgrant 2024",
   component: FossilFreeResearch,
-  embed: "content/fossil-free-research.png",
+  embed: "/showcase/thumbnails/fossil-free-research.png",
   category: "Climate Change",
 },
 
@@ -3222,7 +3222,7 @@ const projects = [
   tags: ["microgrants", "2024", "northwest-territories"],
   cohort: "Microgrant 2024",
   component: WhatIsAChildAnd,
-  embed: "content/what-is-a-child-and-youth-advocate.pdf",
+  embed: "/showcase/thumbnails/what-is-a-child-and-youth-advocate.pdf",
   category: "Youth Voice & Civic Participation",
 },
 
@@ -3249,7 +3249,7 @@ const projects = [
   image: "https://images.pexels.com/photos/14682093/pexels-photo-14682093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   cohort: "Microgrant 2024",
   component: GreenJobsMediaSeries,
-  embed: "content/green-jobs-media-series.mp4",
+  embed: "/showcase/thumbnails/green-jobs-media-series.mp4",
   category: "Employment, Labour & Youth Employment",
 },
 
@@ -3262,7 +3262,7 @@ const projects = [
   image: "https://images.pexels.com/photos/4651145/pexels-photo-4651145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   cohort: "Microgrant 2024",
   component: UnderstandingTheCanadianEconomyThrough,
-  embed: "content/understanding-the-canadian-economy-through-economic-indicato.pdf",
+  embed: "/showcase/thumbnails/understanding-the-canadian-economy-through-economic-indicato.pdf",
   category: "Economy & Economic Inclusion",
 
 },
@@ -3277,7 +3277,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured", "ontario"],
   cohort: "Microgrant 2024",
   component: Soles4soulsShoeDrive,
-  embed: "content/soles4souls-shoe-drive.pdf",
+  embed: "/showcase/thumbnails/soles4souls-shoe-drive.pdf",
   category: "Sports, Arts, & Community Life",
 },
 
@@ -3343,7 +3343,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: WelcomeToCanadaAGuide,
-  embed: "content/welcome-to-canada-a-guide-for-newcomers-to-canada.pdf",
+  embed: "/showcase/thumbnails/welcome-to-canada-a-guide-for-newcomers-to-canada.pdf",
   category: "Newcomers, Refugees, Immigration, Settlement & Citizenship",
 
 },
@@ -3542,7 +3542,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: TechnologyForTheGreaterGood,
-  embed: "content/technology-for-the-greater-good.pdf",
+  embed: "/showcase/thumbnails/technology-for-the-greater-good.pdf",
   category: "Disability",
 },
 
@@ -3555,7 +3555,7 @@ const projects = [
   image: "https://images.pexels.com/photos/6077181/pexels-photo-6077181.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   cohort: "Microgrant 2024",
   component: BalancingTheScalesGenderRepresentation,
-  embed: "content/balancing-the-scales-gender-representation-in-canada-s-feder.pdf",
+  embed: "/showcase/thumbnails/balancing-the-scales-gender-representation-in-canada-s-feder.pdf",
   category: "Gender Equality",
 
 },
@@ -3570,7 +3570,7 @@ const projects = [
   tags: ["microgrants", "2024", "nova-scotia"],
   cohort: "Microgrant 2024",
   component: DreamingOfAlternativeFoodFutures,
-  embed: "content/dreaming-of-alternative-food-futures.pdf",
+  embed: "/showcase/thumbnails/dreaming-of-alternative-food-futures.pdf",
   category: "Agriculture & Food Security",
 },
 
@@ -3637,7 +3637,7 @@ const projects = [
   image: "https://images.pexels.com/photos/5632274/pexels-photo-5632274.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   cohort: "Microgrant 2024",
   component: EchoesOfNaija,
-  embed: "content/echoes-of-naija.pdf",
+  embed: "/showcase/thumbnails/echoes-of-naija.pdf",
   category: "Diaspora Communities & Global Connections",
 
 },
@@ -3691,7 +3691,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: TheCollectionYeoYouthEnrichment,
-  embed: "content/the-collection-y-e-o-youth-enrichment-opportunities.pdf",
+  embed: "/showcase/thumbnails/the-collection-y-e-o-youth-enrichment-opportunities.pdf",
   category: "Education",
 
 },
@@ -3784,7 +3784,7 @@ const projects = [
   image: "https://images.pexels.com/photos/14865703/pexels-photo-14865703.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   cohort: "Microgrant 2024",
   component: RedesigningCommunitySpacesForSustainability,
-  embed: "content/redesigning-community-spaces-for-sustainability-accessibilit.pdf",
+  embed: "/showcase/thumbnails/redesigning-community-spaces-for-sustainability-accessibilit.pdf",
   category: "Design for Civic Impact",
 },
 
@@ -3863,7 +3863,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: EmpoweringNewcomersAndYoungCanadians,
-  embed: "content/empowering-newcomers-and-young-canadians-a-comprehensive-ini.pdf",
+  embed: "/showcase/thumbnails/empowering-newcomers-and-young-canadians-a-comprehensive-ini.pdf",
   category: "Employment, Labour & Youth Employment",
 },
 
@@ -3956,7 +3956,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: ExploringTheImpactOfSocial,
-  embed: "content/exploring-the-impact-of-social-prescribing-on-youth-with-spe.pdf",
+  embed: "/showcase/thumbnails/exploring-the-impact-of-social-prescribing-on-youth-with-spe.pdf",
   category: "Disability",
 
 },
@@ -3971,7 +3971,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: UnderstandingUkrainiansRealitiesDisinformationAnd,
-  embed: "content/understanding-ukrainians-realities-disinformation-and-allysh.pdf",
+  embed: "/showcase/thumbnails/understanding-ukrainians-realities-disinformation-and-allysh.pdf",
   category: "Diaspora Communities & Global Connections",
 },
 
@@ -4011,7 +4011,7 @@ const projects = [
   image: "https://images.pexels.com/photos/35568767/pexels-photo-35568767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   cohort: "Microgrant 2024",
   component: ANewBeginningOurJourney,
-  embed: "content/a-new-beginning-our-journey-from-afghanistan-to-canada.pdf",
+  embed: "/showcase/thumbnails/a-new-beginning-our-journey-from-afghanistan-to-canada.pdf",
   category: "Multiculturalism, Heritage & Community Storytelling",
 
 },
@@ -4025,7 +4025,7 @@ const projects = [
   image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   cohort: "Microgrant 2024",
   component: ImprovingTheUsabilityOfThe,
-  embed: "content/improving-the-usability-of-the-elections-canada-website.pdf",
+  embed: "/showcase/thumbnails/improving-the-usability-of-the-elections-canada-website.pdf",
   category: "Elections",
 },
 
@@ -4195,7 +4195,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: SlowlyWithYou,
-  embed: "content/slowly-with-you.pdf",
+  embed: "/showcase/thumbnails/slowly-with-you.pdf",
   category: "Multiculturalism, Heritage & Community Storytelling",
 
 },
@@ -4248,7 +4248,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: AreYouBreakingTheLaw,
-  embed: "content/are-you-breaking-the-law.mp4",
+  embed: "/showcase/thumbnails/are-you-breaking-the-law.mp4",
   category: "Justice & Legal Literacy",
 
 },
@@ -4342,7 +4342,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2024",
   component: ReducingBarriersInCivicEngagement,
-  embed: "content/reducing-barriers-in-civic-engagement-through-data-visualiza.pdf",
+  embed: "/showcase/thumbnails/reducing-barriers-in-civic-engagement-through-data-visualiza.pdf",
   category: "Data for Civic Impact",
 },
 
@@ -4398,7 +4398,7 @@ const projects = [
   tags: ["ontario", "micro-grant", "2025", "public-health", "health", "healthcare", "research", "data-analysis", "data-visualization"],
   cohort: "Microgrant 2025",
   component: LabpathHackathon,
-  embed: "content/labpath-hackathon.png",
+  embed: "/showcase/thumbnails/labpath-hackathon.png",
   category: "Public Health",
 },
 
@@ -4412,7 +4412,7 @@ const projects = [
   tags: ["alberta", "micro-grant", "2025", "inclusion-equity", "newcomer", "im-migration", "community-services", "civic-education", "civic-engagement", "youth-engagement"],
   cohort: "Microgrant 2025",
   component: NewcomerYouthVoicesCivicAwareness,
-  embed: "content/newcomer-youth-voices-civic-awareness-community-connection-p.pdf",
+  embed: "/showcase/thumbnails/newcomer-youth-voices-civic-awareness-community-connection-p.pdf",
   category: "Newcomers, Refugees, Immigration, Settlement & Citizenship",
 
 },
@@ -4589,7 +4589,7 @@ const projects = [
   tags: ["ontario", "micro-grant", "2025", "food-security", "community-services", "sports", "fitness", "civic-engagement"],
   cohort: "Microgrant 2025",
   component: KeepUpsForAKause,
-  embed: "content/keep-ups-for-a-kause.png",
+  embed: "/showcase/thumbnails/keep-ups-for-a-kause.png",
   category: "Agriculture & Food Security",
 },
 
@@ -4603,7 +4603,7 @@ const projects = [
   tags: ["saskatchewan", "micro-grant", "2025", "mental-health", "community-services", "accessibility", "newcomer", "im-migration"],
   cohort: "Microgrant 2025",
   component: MenthelpMentalHealthConnect,
-  embed: "content/menthelp-mental-health-connect.jpg",
+  embed: "/showcase/thumbnails/menthelp-mental-health-connect.jpg",
   category: "Mental Health",
 
 },
@@ -4645,7 +4645,7 @@ const projects = [
   tags: ["nunavut", "micro-grant", "2025", "arts-culture", "community-storytelling", "community-services"],
   cohort: "Microgrant 2025",
   component: NorthernAdventures,
-  embed: "content/northern-adventures.jpg",
+  embed: "/showcase/thumbnails/northern-adventures.jpg",
   category: "Urban, Rural & Northern Communities",
 },
 
@@ -4754,7 +4754,7 @@ const projects = [
   tags: ["microgrants", "2024", "featured"],
   cohort: "Microgrant 2025",
   component: AMillionActsOfLove2,
-  embed: "content/a-million-acts-of-love-changemaker-program.pdf",
+  embed: "/showcase/thumbnails/a-million-acts-of-love-changemaker-program.pdf",
   category: "Digital Tech for Civic Impact",
 },
 
@@ -5661,7 +5661,7 @@ const projects = [
   description:
     "This presentation examines how Six Nations land governance conflicts reveal ongoing settler colonial power structures, showing that true decolonization requires moving beyond compensation and consultation toward Indigenous sovereignty, consent, and land-based self-determination.",
   image: "https://images.pexels.com/photos/149547/pexels-photo-149547.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/glocal-decolonizing-politics-1.pdf",
+  embed: "/showcase/thumbnails/glocal-decolonizing-politics-1.pdf",
   tags: ["indigenous", "reconciliation", "governance", "civic-education", "land-rights", "haudenosaunee"],
   component: DecolonizingPolitics,
   category: "Indigenous Peoples, Cultures & Reconciliation",
@@ -5675,7 +5675,7 @@ const projects = [
   description:
     "Lying Through Their Teeth examines how social media, AI-generated content, and weak digital literacy have allowed misinformation to spread rapidly in Canada, undermining public trust, civic responsibility, and the ability to separate fact from manipulation.",
   image: "https://images.pexels.com/photos/17489150/pexels-photo-17489150.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  embed: "content/haala-ahmed-misinformation-substack.pdf",
+  embed: "/showcase/thumbnails/haala-ahmed-misinformation-substack.pdf",
   tags: ["misinformation", "digital-literacy", "social-media", "civic-education", "media-literacy", "artificial-intelligence"],
   component: LyingThroughTheirTeeth,
   category: "Media Literacy & Misinformation & Disinformation",
@@ -5691,7 +5691,7 @@ const projects = [
   image: "https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   tags: ["data", "statistics-canada", "municipalities", "demographics", "immigration", "labour-force", "canada", "open-data"],
   component: MunicipalDataCollectionAndCompiling,
-  embed: "content/municipal-data-collection-and-compiling.pdf",
+  embed: "/showcase/thumbnails/municipal-data-collection-and-compiling.pdf",
   category: "Data & Research",
 },
 

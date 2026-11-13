@@ -15,7 +15,7 @@ export default function CalgaryRegional() {
             marginTop: "1rem"
           }}
         >
-          <source src="content/calgary-regional.mp4" type="video/mp4" />
+          <source src="/showcase/content/calgary-regional.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </section>

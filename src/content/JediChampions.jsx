@@ -17,12 +17,12 @@ export default function JediChampions() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/fcss-fesc-jedi-champions-program-report-2025-03-31.pdf"
+          data="/showcase/content/fcss-fesc-jedi-champions-program-report-2025-03-31.pdf"
           type="application/pdf"
           aria-label="JEDI Champions"
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/fcss-fesc-jedi-champions-program-report-2025-03-31.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/fcss-fesc-jedi-champions-program-report-2025-03-31.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

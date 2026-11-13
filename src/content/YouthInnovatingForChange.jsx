@@ -18,12 +18,12 @@ export default function YouthInnovatingForChange() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/youth-innovating-for-change-main-project-report-youth-innovating-for-change.pdf"
+          data="/showcase/content/youth-innovating-for-change-main-project-report-youth-innovating-for-change.pdf"
           type="application/pdf"
           aria-label="Youth Innovating for Change"
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/youth-innovating-for-change-main-project-report-youth-innovating-for-change.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/youth-innovating-for-change-main-project-report-youth-innovating-for-change.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

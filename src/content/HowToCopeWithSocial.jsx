@@ -17,12 +17,12 @@ export default function HowToCopeWithSocial() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/social-anxiety-disorder-glocal-foundation-docx.pdf"
+          data="/showcase/content/social-anxiety-disorder-glocal-foundation-docx.pdf"
           type="application/pdf"
           aria-label="How to Cope with Social Anxiety Disorder"
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/social-anxiety-disorder-glocal-foundation-docx.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/social-anxiety-disorder-glocal-foundation-docx.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

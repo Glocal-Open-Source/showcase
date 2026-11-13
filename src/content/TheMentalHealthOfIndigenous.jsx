@@ -22,12 +22,12 @@ export default function TheMentalHealthOfIndigenous() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/sara-saadat-final-project.pdf"
+          data="/showcase/content/sara-saadat-final-project.pdf"
           type="application/pdf"
           aria-label="The mental health of Indigenous children in Residential Schools in Canada and what Canadian Social workers did for this Situation."
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/sara-saadat-final-project.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/sara-saadat-final-project.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

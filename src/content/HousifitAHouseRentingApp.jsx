@@ -22,12 +22,12 @@ export default function HousifitAHouseRentingApp() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/ux-case-study-presentation.pdf"
+          data="/showcase/content/ux-case-study-presentation.pdf"
           type="application/pdf"
           aria-label="Housifit - A House renting app."
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/ux-case-study-presentation.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/ux-case-study-presentation.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

@@ -57,7 +57,7 @@ export default function PostElection() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Read the Full Report</h3>
         <object
-          data="content/postelection.pdf" type="application/pdf" aria-label="2025 Post-Election Analysis"
+          data="/showcase/content/postelection.pdf" type="application/pdf" aria-label="2025 Post-Election Analysis"
           width="100%"
           height="1000px"
           style={{

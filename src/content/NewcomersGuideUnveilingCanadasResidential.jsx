@@ -17,12 +17,12 @@ export default function NewcomersGuideUnveilingCanadasResidential() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/newcomer-s-guide-unveiling-canada-s-residential-school-history-ruhani-jindal-microgrants-20231115.pdf"
+          data="/showcase/content/newcomer-s-guide-unveiling-canada-s-residential-school-history-ruhani-jindal-microgrants-20231115.pdf"
           type="application/pdf"
           aria-label="Newcomer&#x27;s Guide: Unveiling Canada&#x27;s Residential School History"
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/newcomer-s-guide-unveiling-canada-s-residential-school-history-ruhani-jindal-microgrants-20231115.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/newcomer-s-guide-unveiling-canada-s-residential-school-history-ruhani-jindal-microgrants-20231115.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

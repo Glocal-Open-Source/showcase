@@ -17,12 +17,12 @@ export default function ReducingRentersCarbonFootprintIn() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/reducing-renters-carbon-footprint-in-the-city-of-vancouver-docx.pdf"
+          data="/showcase/content/reducing-renters-carbon-footprint-in-the-city-of-vancouver-docx.pdf"
           type="application/pdf"
           aria-label="Reducing Renters’ Carbon Footprint in the City of Vancouver"
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/reducing-renters-carbon-footprint-in-the-city-of-vancouver-docx.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/reducing-renters-carbon-footprint-in-the-city-of-vancouver-docx.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

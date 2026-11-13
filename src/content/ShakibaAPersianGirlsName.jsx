@@ -12,12 +12,12 @@ export default function ShakibaAPersianGirlsName() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/mahsa-s-full-story-and-book-script.pdf"
+          data="/showcase/content/mahsa-s-full-story-and-book-script.pdf"
           type="application/pdf"
           aria-label="Shakiba A Persian girl&#x27;s name meaning one who is Patient/Tolerative."
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/mahsa-s-full-story-and-book-script.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/mahsa-s-full-story-and-book-script.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

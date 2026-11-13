@@ -22,12 +22,12 @@ export default function SustainableBusinessShowcase() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/glocal-microgrant-proposal-marketing-only.pdf"
+          data="/showcase/content/glocal-microgrant-proposal-marketing-only.pdf"
           type="application/pdf"
           aria-label="Sustainable Business Showcase"
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/glocal-microgrant-proposal-marketing-only.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/glocal-microgrant-proposal-marketing-only.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

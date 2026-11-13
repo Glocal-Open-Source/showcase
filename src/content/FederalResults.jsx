@@ -45,7 +45,7 @@ export default function FederalResults() {
             background: "#000",
           }}
         >
-          <source src="content/sakib.mp4" type="video/mp4" />
+          <source src="/showcase/content/sakib.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </section>

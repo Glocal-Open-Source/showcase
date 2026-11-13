@@ -70,7 +70,7 @@ export default function ChloeApp() {
             objectFit: "cover"
           }}
         >
-          <source src="content/chloe.mp4" type="video/mp4" />
+          <source src="/showcase/content/chloe.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <p style={{ fontSize: "0.9rem", color: "#555", marginTop: "0.5rem" }}>

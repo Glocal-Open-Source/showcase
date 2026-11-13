@@ -17,12 +17,12 @@ export default function CanadasMediaMonitor() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/canada-s-media-monitor-keven-pi.pdf"
+          data="/showcase/content/canada-s-media-monitor-keven-pi.pdf"
           type="application/pdf"
           aria-label="Canada&#x27;s Media Monitor"
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/canada-s-media-monitor-keven-pi.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/canada-s-media-monitor-keven-pi.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

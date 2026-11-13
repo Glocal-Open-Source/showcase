@@ -17,12 +17,12 @@ export default function HarmonyInLawIntegratingIndigenous() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/canconnect-microgrant-project-pptx.pdf"
+          data="/showcase/content/canconnect-microgrant-project-pptx.pdf"
           type="application/pdf"
           aria-label="Harmony in Law: Integrating Indigenous Legal Traditions"
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/canconnect-microgrant-project-pptx.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/canconnect-microgrant-project-pptx.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

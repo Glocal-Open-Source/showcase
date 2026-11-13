@@ -17,12 +17,12 @@ export default function GreenTogether() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/green-together-final-report.pdf"
+          data="/showcase/content/green-together-final-report.pdf"
           type="application/pdf"
           aria-label="Green Together"
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/green-together-final-report.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/green-together-final-report.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

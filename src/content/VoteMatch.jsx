@@ -52,7 +52,7 @@ export default function VoteMatch() {
         <ul style={{ listStyle: "none", paddingLeft: 0 }}>
           <li style={{ marginBottom: "0.5rem" }}>
             <a
-              href="content/votematch.pdf"
+              href="/showcase/content/votematch.pdf"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "#5b2bff", fontWeight: 600, textDecoration: "none" }}
@@ -62,7 +62,7 @@ export default function VoteMatch() {
           </li>
           <li>
             <a
-              href="content/votematchtechnical.pdf"
+              href="/showcase/content/votematchtechnical.pdf"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "#5b2bff", fontWeight: 600, textDecoration: "none" }}

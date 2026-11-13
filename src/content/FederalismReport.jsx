@@ -44,7 +44,7 @@ export default function FederalismReport() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Read the Full Report</h3>
         <object
-          data="content/federalism-division-of-powers.pdf" type="application/pdf" aria-label="Understanding Federalism in Canada PDF"
+          data="/showcase/content/federalism-division-of-powers.pdf" type="application/pdf" aria-label="Understanding Federalism in Canada PDF"
           width="100%"
           height="600px"
           style={{

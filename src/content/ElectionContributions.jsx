@@ -37,7 +37,7 @@ export default function ElectionContributions() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Read the Full Report</h3>
         <object
-          data="content/electionscontributions.pdf" type="application/pdf" aria-label="Elections Contributions Report"
+          data="/showcase/content/electionscontributions.pdf" type="application/pdf" aria-label="Elections Contributions Report"
           width="100%"
           height="1000px"
           style={{

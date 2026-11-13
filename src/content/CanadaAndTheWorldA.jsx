@@ -12,12 +12,12 @@ export default function CanadaAndTheWorldA() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/canada-and-the-world.pdf"
+          data="/showcase/content/canada-and-the-world.pdf"
           type="application/pdf"
           aria-label="Canada and the World: A Strengths, Weaknesses, Opportunities, Threats (SWOT) Analysis"
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/canada-and-the-world.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/canada-and-the-world.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

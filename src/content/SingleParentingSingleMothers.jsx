@@ -17,12 +17,12 @@ export default function SingleParentingSingleMothers() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/single-parenitng-project-atia-yama.pdf"
+          data="/showcase/content/single-parenitng-project-atia-yama.pdf"
           type="application/pdf"
           aria-label="Single Parenting / Single Mothers"
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/single-parenitng-project-atia-yama.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/single-parenitng-project-atia-yama.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

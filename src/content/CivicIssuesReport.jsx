@@ -78,7 +78,7 @@ export default function CivicIssues() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>An Analysis of 2021 Canadian Election Study Data</h3>
         <object
-          data="content/civicissues.pdf"
+          data="/showcase/content/civicissues.pdf"
           type="application/pdf"
           aria-label="Civic Issues PDF"
           width="100%"

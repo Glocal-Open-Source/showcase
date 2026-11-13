@@ -12,12 +12,12 @@ export default function NewYoungImmigrantsInCanada2() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/copie-de-community-and-family-history-history-1st-grade.pdf"
+          data="/showcase/content/copie-de-community-and-family-history-history-1st-grade.pdf"
           type="application/pdf"
           aria-label="New Young immigrants in Canada"
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/copie-de-community-and-family-history-history-1st-grade.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/copie-de-community-and-family-history-history-1st-grade.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

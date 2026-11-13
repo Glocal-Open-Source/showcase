@@ -17,12 +17,12 @@ export default function ThroughOurLensTheStory() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/final-report-through-our-lens-the-story-of-fort-resolution-docx.pdf"
+          data="/showcase/content/final-report-through-our-lens-the-story-of-fort-resolution-docx.pdf"
           type="application/pdf"
           aria-label="Through Our Lens – The Story of Fort Resolution"
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/final-report-through-our-lens-the-story-of-fort-resolution-docx.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/final-report-through-our-lens-the-story-of-fort-resolution-docx.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

@@ -22,12 +22,12 @@ export default function YoungAndBlack() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/young-black-daniel-akinjise.pdf"
+          data="/showcase/content/young-black-daniel-akinjise.pdf"
           type="application/pdf"
           aria-label="Young and Black"
           style={{ width: "100%", height: "700px", border: "1px solid #ddd", borderRadius: "8px" }}
         >
-          <a href="content/young-black-daniel-akinjise.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+          <a href="/showcase/content/young-black-daniel-akinjise.pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
         </object>
       </section>
     </article>

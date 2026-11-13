@@ -64,7 +64,7 @@ export default function CDEM2019Report() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Read the Full Report</h3>
         <object
-          data="content/cdem2019-canadians-and-civic-issues.pdf" type="application/pdf" aria-label="Canadians and Civic Issues PDF"
+          data="/showcase/content/cdem2019-canadians-and-civic-issues.pdf" type="application/pdf" aria-label="Canadians and Civic Issues PDF"
           width="100%"
           height="600px"
           style={{

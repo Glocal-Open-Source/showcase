@@ -32,7 +32,7 @@ export default function FromPipesToPeopleAddressing() {
       <section style={{ marginBottom: "2rem" }}>
         <h3>Full Document</h3>
         <object
-          data="content/frompipestopeople.pdf" type="application/pdf" aria-label="From Pipes to People: Addressing Lead in Drinking Water"
+          data="/showcase/content/frompipestopeople.pdf" type="application/pdf" aria-label="From Pipes to People: Addressing Lead in Drinking Water"
           width="100%"
           height="600px"
           style={{
